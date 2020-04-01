@@ -1,6 +1,9 @@
 import React, { Fragment } from "react";
 import logo from "./logo.svg";
 import "./App.css";
+import MyName from './MyName';
+import MyAge from './MyAge';
+import Counter from './Counter';
 
 function App() {
     const name = "Yeon Jeffrey Seo";
@@ -37,6 +40,9 @@ function App() {
                 })()}
             </div>
             <div className='App'>안녕하세요!</div>
+            <MyName/>
+            <MyAge age = "31"/>
+            <Counter/>
         </Fragment>
     );
 }
